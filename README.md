@@ -1,7 +1,8 @@
 # 🏗️ Multi-Agent AI Supply Chain Management System (Construction SCM)
 
 This project demonstrates a **multi-agent system** for **supply chain management** for **civil engineering/construction** use case using **CrewAI**
-Author - Rudresh Veerappaji
+
+### Author - Rudresh Veerappaji
 ---
 
 ## 📌 Overview
