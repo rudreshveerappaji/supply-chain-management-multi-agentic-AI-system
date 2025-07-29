@@ -1,4 +1,3 @@
-streamlit
 pandas
 crewai
-streamlit_app.py
+crewai
