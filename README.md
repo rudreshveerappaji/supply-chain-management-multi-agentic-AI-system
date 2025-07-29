@@ -8,16 +8,23 @@ This project demonstrates a **multi-agent system** for **supply chain management
 
 Agents collaborate to handle procurement, forecasting, logistics, and site material tracking.
 
-### 🔄 Agent Interaction Flow
+### Agents
 
-![Agent Flowchart](agents_flowchart.png)
+### Tasks
+Task flow definitions have been created and saved in the tasks/ folder:
+
+** forecast_task.py ** – Generates material demand
+** procure_task.py ** – Creates purchase orders based on forecast
+** logistics_task.py ** – Arranges delivery logistics
+** site_task.py ** – Tracks site confirmations and usage
+** setup_tasks.py ** – Chains all tasks together for CrewAI
+
+### 🔄 Agent Interaction Flow
 
 - **ForecastingAgent** → predicts demand from usage data
 - **ProcurementAgent** → places material orders from forecasts
 - **LogisticsAgent** → schedules delivery of ordered materials
 - **SiteManagerAgent** → tracks delivery and usage, updates forecast loop
-
----
 
 ## 📁 Project Structure
 
