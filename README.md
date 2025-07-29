@@ -1,4 +1,4 @@
-# 🏗️ Multi-Agent AI Supply Chain Management System (Construction SCM) using CrewAI
+# 🏗️ Multi-Agent AI Supply Chain Management System (Construction SCM)
 
 This project demonstrates a **multi-agent system** for **supply chain management** in a **civil engineering/construction** use case using **CrewAI**.
 
