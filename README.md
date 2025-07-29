@@ -52,6 +52,17 @@ construction_scm_crewai/
 * Hosted on Streamlit Community Cloud
 * Sends API calls to Railway backend and shows results
 
+## Flow
+
+Streamlit (UI on Community Cloud)
+        ↓
+       API call (HTTP)
+        ↓
+Railways (Flask API or Background Worker)
+        ↓
+CrewAI engine runs and returns results (writes to DB or returns JSON)
+
+
 ## ▶️ How to Run
 
 ```bash
