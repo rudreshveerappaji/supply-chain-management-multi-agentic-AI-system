@@ -10,10 +10,10 @@ Agents collaborate to handle procurement, forecasting, logistics, and site mater
 
 ### 🔄 Agents
 
-- **ForecastingAgent** → predicts demand from usage data
-- **ProcurementAgent** → places material orders from forecasts
-- **LogisticsAgent** → schedules delivery of ordered materials
-- **SiteManagerAgent** → tracks delivery and usage, updates forecast loop
+1. **ForecastingAgent** → predicts demand from usage data
+2. **ProcurementAgent** → places material orders from forecasts
+3. **LogisticsAgent** → schedules delivery of ordered materials
+4. **SiteManagerAgent** → tracks delivery and usage, updates forecast loop
 
 ### Supply Chain Management Tasks
 Task flow definitions have been created and saved in the tasks/ folder:
