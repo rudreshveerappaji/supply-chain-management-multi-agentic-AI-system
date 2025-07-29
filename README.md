@@ -42,6 +42,16 @@ construction_scm_crewai/
 
 ---
 
+## Project architecture
+
+### Backend:
+* Hosted on Railway
+* Runs CrewAI agents via Flask
+
+### Frontend:
+* Hosted on Streamlit Community Cloud
+* Sends API calls to Railway backend and shows results
+
 ## ▶️ How to Run
 
 ```bash
